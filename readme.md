@@ -53,6 +53,9 @@ This repo is used as a starter for a _very basic_ HTML web application using no 
 e) Install Azure Static Web Apps CLI and Azure Functions Core Tools V3 to run all this locally for testing as follows:
 npm install -g @azure/static-web-apps-cli
 npm install -g azure-functions-core-tools@3
-f) Run the following to start the app locally:
+f) Run the following to start the app locally in order to test it:
 swa start src --api-location api
-g)
+g) Make sure you have the .yml have "api" for its "api_location" property set
+h) git commit & push (cool you can do this from F1 also)
+i) Go to the Actions section of GitHub to see the workflow run
+j) Go to portal.azure.com and navigate to your now published site!
